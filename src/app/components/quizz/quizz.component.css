@@ -33,13 +33,14 @@
   justify-content: center;
   margin: auto;
   margin-bottom: 16px;
+  gap: 8px;
 }
 
 .btn-option {
   background-color: transparent;
   border-radius: 8px;
   border: 1px solid #18ab29;
-  width: 50%;
+  width: calc(50% - 8px);
   display: inline-block;
   cursor: pointer;
   color: #fff;
@@ -67,5 +68,4 @@
   background-color: rgb(33, 2, 57);
   border-radius: 8px;
   padding: 16px;
-
 }
